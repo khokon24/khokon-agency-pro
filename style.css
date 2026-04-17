@@ -6,109 +6,102 @@ font-family:'Poppins',sans-serif;
 }
 
 body{
-background:#0b0f14;
+background:#0f172a;
 color:#fff;
-}
-
-.nav{
-padding:15px;
 text-align:center;
-background:#000;
 }
 
-.logo{
-color:#00ff9f;
-}
-
+/* HERO */
 .hero{
-text-align:center;
-padding:80px 20px;
-}
-
-.profile{
-width:140px;
-border-radius:50%;
-margin-bottom:20px;
-border:3px solid #00ff9f;
+padding:60px 20px;
 }
 
 .hero h1{
-font-size:26px;
-margin-bottom:15px;
+font-size:32px;
+margin-bottom:10px;
 }
 
 .hero p{
 opacity:0.8;
-max-width:500px;
-margin:auto;
+margin-bottom:15px;
 }
 
-.cta{
-margin-top:20px;
+.profile{
+width:120px;
+border-radius:50%;
+margin:20px 0;
 }
 
+.trust{
+font-size:14px;
+opacity:0.7;
+margin-top:10px;
+}
+
+/* BUTTON */
 .btn{
-padding:10px 20px;
-border-radius:6px;
-text-decoration:none;
 display:inline-block;
-margin:5px;
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+margin-top:10px;
 }
 
 .primary{
-background:#00ff9f;
+background:#22c55e;
 color:#000;
 }
 
-.outline{
-border:1px solid #00ff9f;
-color:#00ff9f;
+/* SECTION */
+.section{
+padding:50px 20px;
 }
 
-.section{
-padding:60px 20px;
-text-align:center;
+.section h2{
+margin-bottom:20px;
 }
 
 .dark{
-background:#111;
+background:#020617;
 }
 
+/* GRID */
 .grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
 gap:15px;
-margin-top:20px;
+max-width:900px;
+margin:auto;
 }
 
 .card{
-background:#1a1f27;
+background:#1e293b;
 padding:20px;
 border-radius:10px;
 }
 
-.cta-big{
-background:#00ff9f20;
+/* CTA */
+.cta{
+background:#111827;
 }
 
-form{
-display:flex;
-flex-direction:column;
-gap:10px;
-max-width:400px;
-margin:auto;
-}
-
-input,textarea{
-padding:10px;
-border:none;
-border-radius:5px;
-}
-
+/* FOOTER */
 footer{
-text-align:center;
 padding:20px;
-background:#000;
-margin-top:30px;
+font-size:14px;
+opacity:0.7;
 }
 
+/* FLOAT BUTTON */
+.float-btn{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#22c55e;
+color:#000;
+padding:15px;
+border-radius:50%;
+font-size:20px;
+text-decoration:none;
+}
