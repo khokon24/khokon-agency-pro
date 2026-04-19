@@ -188,3 +188,24 @@ position:sticky;
 top:0;
 z-index:1000;
 }
+footer{
+padding:30px 20px;
+background:#020617;
+font-size:14px;
+opacity:0.9;
+}
+
+.legal-links{
+margin-top:10px;
+}
+
+.legal-links a{
+color:#60a5fa;
+margin:0 8px;
+text-decoration:none;
+}
+
+.legal-links a:hover{
+text-decoration:underline;
+color:#93c5fd;
+}
