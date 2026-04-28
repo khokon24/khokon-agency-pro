@@ -3,129 +3,197 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Emergency HVAC Repair - 24/7 Service</title>
+<title>Emergency HVAC Repair | 24/7 Service</title>
+
+<meta name="description" content="Need HVAC repair? Call now for fast, reliable 24/7 heating & cooling services. Speak with a technician instantly.">
 
 <style>
+
+/* RESET */
 body{
 margin:0;
 font-family:Arial, sans-serif;
-background:#f5f7fb;
-color:#111;
-}
-
-.header{
-background:linear-gradient(135deg,#005bea,#00c6fb);
-color:white;
+background:#f4f6fb;
+color:#222;
 text-align:center;
-padding:40px 20px;
 }
 
-.header h1{
+/* TOP BAR */
+.topbar{
+background:#28a745;
+color:#fff;
+padding:8px;
+font-size:13px;
+}
+
+/* HERO */
+.hero{
+background:linear-gradient(135deg,#005bea,#00c6fb);
+color:#fff;
+padding:50px 20px;
+}
+
+.hero h1{
 margin:0;
 font-size:28px;
 }
 
-.header p{
+.hero p{
 margin-top:10px;
 font-size:14px;
 }
 
-.call-btn{
+.phone{
+font-size:22px;
+font-weight:bold;
+margin-top:10px;
+}
+
+.btn{
 display:inline-block;
 margin-top:15px;
 background:#ff6a00;
-color:white;
-padding:14px 25px;
+color:#fff;
+padding:15px 25px;
 border-radius:8px;
 text-decoration:none;
 font-weight:bold;
+font-size:16px;
 }
 
+/* TRUST BADGES */
+.trust{
+margin-top:10px;
+font-size:13px;
+}
+
+/* SECTIONS */
 .section{
-padding:30px 20px;
-text-align:center;
-background:white;
+background:#fff;
 margin:10px;
+padding:30px 15px;
 border-radius:10px;
 }
 
-h2{
-margin-bottom:10px;
-}
-
-.services, .steps{
+/* GRID */
+.grid{
 display:grid;
+grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
 gap:10px;
-max-width:600px;
+max-width:700px;
 margin:auto;
 }
 
-.box{
-background:#f0f4ff;
+.card{
+background:#eef3ff;
 padding:12px;
 border-radius:8px;
 }
 
-.footer{
-background:#111;
-color:white;
-text-align:center;
-padding:20px;
-font-size:12px;
-margin-top:20px;
+/* REVIEWS */
+.review{
+margin:8px 0;
 }
 
-.phone{
-font-size:20px;
+/* CTA */
+.cta{
+background:#005bea;
+color:#fff;
+}
+
+/* FOOTER */
+.footer{
+background:#111;
+color:#ccc;
+padding:20px;
+font-size:12px;
+}
+
+.footer a{
+color:#ff9800;
+text-decoration:none;
+}
+
+/* STICKY BUTTON */
+.sticky{
+position:fixed;
+bottom:10px;
+left:10px;
+right:10px;
+background:#28a745;
+color:#fff;
+padding:15px;
+border-radius:10px;
+text-decoration:none;
 font-weight:bold;
-color:#ff6a00;
-margin-top:10px;
 }
 
 </style>
 
 </head>
+
 <body>
 
-<div class="header">
-<h1>Emergency HVAC Repair</h1>
-<p>Fast & Reliable Heating & Cooling Services – 24/7 Available</p>
-
-<a class="call-btn" href="tel:+1234567890">📞 Call Now</a>
-
-<div class="phone">+1 (234) 567-890</div>
+<div class="topbar">
+✔ 24/7 Emergency Service | ✔ Licensed Technicians | ✔ Fast Response
 </div>
 
-<div class="section">
-<h2>Our Services</h2>
-<div class="services">
-<div class="box">AC Repair</div>
-<div class="box">Heating Repair</div>
-<div class="box">Furnace Repair</div>
-<div class="box">HVAC Installation</div>
+<div class="hero">
+<h1>Emergency HVAC Repair Near You</h1>
+<p>Fast Heating & Cooling Service – Available 24/7</p>
+
+<div class="phone">📞 +1XXXXXXXXXX</div>
+
+<a href="tel:+1XXXXXXXXXX" class="btn">📞 Call Now – Get Instant Help</a>
+
+<div class="trust">
+Trusted by Thousands of Homeowners
 </div>
 </div>
 
 <div class="section">
-<h2>How It Works</h2>
-<div class="steps">
-<div class="box">1. Call Our Experts</div>
-<div class="box">2. Explain Your Issue</div>
-<div class="box">3. Get Instant Help</div>
+<h2>Our HVAC Services</h2>
+<div class="grid">
+<div class="card">AC Repair</div>
+<div class="card">Heating Repair</div>
+<div class="card">Furnace Repair</div>
+<div class="card">HVAC Installation</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Why Choose Us</h2>
+<div class="grid">
+<div class="card">✔ Same Day Service</div>
+<div class="card">✔ Affordable Pricing</div>
+<div class="card">✔ Certified Technicians</div>
 </div>
 </div>
 
 <div class="section">
 <h2>Customer Reviews</h2>
-<div class="box">⭐⭐⭐⭐⭐ "Fast & reliable service!"</div>
-<div class="box">⭐⭐⭐⭐⭐ "Very professional technicians"</div>
+<div class="review">⭐⭐⭐⭐⭐ "Fixed my AC in 30 minutes!"</div>
+<div class="review">⭐⭐⭐⭐⭐ "Fast and professional service!"</div>
+<div class="review">⭐⭐⭐⭐⭐ "Highly recommended HVAC experts."</div>
+</div>
+
+<div class="section cta">
+<h2>Need Immediate Help?</h2>
+<a href="tel:+1XXXXXXXXXX" class="btn">📞 Call Now – Speak With Expert</a>
 </div>
 
 <div class="footer">
-📍 123 Service Street, New York, NY<br>
-📧 support@example.com<br><br>
-© 2026 Emergency HVAC Services
+📍 123 Service Street, New York, NY 10001, USA<br>
+📧 support@homeserviceconnect.com<br><br>
+
+This site is a free service to assist homeowners in connecting with local service providers.
+All contractors are independent and this site does not guarantee any work performed.<br><br>
+
+<a href="privacy.html">Privacy Policy</a> |
+<a href="terms.html">Terms & Conditions</a>
 </div>
+
+<a href="tel:+1XXXXXXXXXX" class="sticky">📞 Call Now</a>
 
 </body>
 </html>
